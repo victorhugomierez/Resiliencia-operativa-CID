@@ -112,13 +112,13 @@ El objetivo de este capítulo es evaluar la robustez del flujo de señal en sist
 
 La robustez del flujo de señal se entiende como la capacidad del sistema para:
 
-Resistir contingencias (cortes de energía, fallas de ISP, interferencias).
+- Resistir contingencias (cortes de energía, fallas de ISP, interferencias).
 
-Mantener integridad en la transmisión (evitar corrupción de datos o falsos positivos).
+- Mantener integridad en la transmisión (evitar corrupción de datos o falsos positivos).
 
-Asegurar redundancia mediante canales alternativos y protocolos de respaldo.
+- Asegurar redundancia mediante canales alternativos y protocolos de respaldo.
 
-Cumplir normativamente con los estándares IRAM, que definen parámetros mínimos de calidad y seguridad.
+- Cumplir normativamente con los estándares IRAM, que definen parámetros mínimos de calidad y seguridad.
 
 Este análisis busca demostrar que la confiabilidad del dato no depende únicamente de la tecnología instalada, sino de la convergencia entre arquitectura técnica, cumplimiento normativo y operación humana. El flujo de señal es el hilo conductor que une todos los componentes del sistema, y su robustez es el factor decisivo para que el monitoreo sea eficaz y confiable.
 
@@ -141,7 +141,7 @@ Qué muestra este esquema
 ![aplicacion de normas IRAM](assets/aplica-iram.png)
 
 
-**Figura 3. Normas IRAM aplicadas al flujo de robustez de señal**
+**Normas IRAM aplicadas al flujo de robustez de señal**
 
 El presente esquema visualiza la correspondencia entre las etapas del flujo de señal y las Normas IRAM que regulan su robustez técnica y operativa.  
 Cada norma actúa como un eslabón dentro de la cadena de confiabilidad:
