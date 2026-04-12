@@ -52,7 +52,7 @@
 # Introduccion 
 
 
-La presente investigación no se limita a una descripción procedimental, sino que propone un análisis sistémico sobre la **integridad del flujo de datos** y la **validación de identidad** en centros de monitoreo. Bajo el cumplimiento de las normas **IRAM 4174 y 4179**, se examinará la robustez del sistema frente a vectores de ataque modernos que comprometen la tríada de seguridad (CID).
+El presente ensayo analiza el flujo sistémico de señales de monitoreo bajo el marco normativo IRAM (4174-1/2, 4173-3, 4179), enfocándose en la integridad de la señal y la validación de identidad como pilares de la operación real. El propósito es examinar la robustez de este flujo frente a vectores de ataque contemporáneos, identificando puntos críticos donde la convergencia entre la seguridad física y la seguridad lógica determina la eficacia de la toma de decisiones del operador. Al desglosar este proceso, se busca proponer medidas de mitigación que fortalezcan el rol del analista en el CRA ante incidentes de alta complejidad.
 
 ### 1. La Triada de la Seguridad
 El análisis se enmarca en los tres pilares universales de la seguridad de la información:  
