@@ -210,4 +210,46 @@ La generación de la señal constituye el **punto de partida** del flujo de moni
 Evaluar si la **generación de la señal** cumple con los estándares normativos y si está preparada para resistir fallas técnicas o intentos de manipulación.  
 Este punto es crítico porque cualquier vulnerabilidad en la generación compromete todo el flujo posterior.
 
+###  Elementos involucrados
+- **Sensores**: detectores de movimiento, contactos magnéticos, cámaras con analítica.  
+- **Paneles de control**: centralizan la información de múltiples sensores.  
+- **Interfaces de comunicación**: módulos IP, GSM o radio que convierten la señal en paquetes transmisibles.  
+
+###  Normas IRAM aplicables
+- **IRAM 4174-1 / 4174-2 / 4174-3** → regulan el diseño, instalación y mantenimiento de sistemas de alarma.  
+- Estas normas garantizan que la señal inicial sea **íntegra** y que el sistema esté **disponible** en condiciones normales y de contingencia.  
+
+###  Relación con la tríada CID
+- **Confidencialidad**: la señal debe generarse sin exposición indebida de datos.  
+- **Integridad**: el evento detectado no puede ser alterado antes de su transmisión.  
+- **Disponibilidad**: el sensor y el panel deben estar operativos incluso ante cortes de energía (UPS, baterías).  
+
 ---
+
+##  Análisis de Resiliencia Operativa
+
+Para contrastar el marco teórico de las normas IRAM con la operación real, este ensayo integra protocolos, analizando cómo la infraestructura técnica mitiga vectores de ataque específicos.
+
+### 1. Gestión de Infraestructura Eléctrica (Contingencia de Energía)
+- **Protocolo Operativo:** Autonomía mínima de 10 horas mediante baterías y activación manual de grupos electrógenos con verificación de fases.  
+- **Perspectiva de Ataque:** Sabotaje del suministro eléctrico externo para forzar la degradación del sistema.  
+- **Defensa Sistémica:** El monitoreo del eventos funcionan como control preventivo que garantiza la disponibilidad del nodo de decisión (CRA).
+
+### 2. Redundancia Crítica de Conectividad (Norma IRAM 4174-3)
+- **Protocolo Operativo:** Router balanceador de carga para conmutar entre múltiples ISPs (WAN1 / WAN2).  
+- **Perspectiva de Ataque:** Ataque DDoS a la IP estática del receptor de alarmas para aislar el CRA.  
+- **Defensa Sistémica:** Reset remoto de infraestructura y alternancia de proveedores aseguran que la **integridad de la señal** no se vea comprometida.
+
+### 3. Validación de Identidad y Protocolos de Coacción
+- **Protocolo Operativo:** Uso de *Palabras Clave* y código de coacción basado en la altura domiciliaria.  
+- **Perspectiva de Ataque:** Ingeniería social o coacción física del abonado para anular una señal legítima.  
+- **Defensa Sistémica:** Eventos críticos (pulsadores de pánico / coacción) generan estado de *“Alarma Confirmada”* inmediata, eliminando la posibilidad de cancelar el despacho de fuerzas mediante engaños.
+
+---
+
+### 💡 Nota de integración
+Este caso de estudio demuestra cómo la **generación de la señal** se conecta con la **resiliencia operativa real**, validando que las normas IRAM no son solo un marco teórico, sino que se aplican en protocolos concretos.  
+El operador, siguiendo el manual, actúa como **“Firewall humano”**, validando que la tecnología no haya sido burlada.
+
+---
+
