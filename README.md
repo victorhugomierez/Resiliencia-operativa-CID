@@ -57,7 +57,7 @@ Este ensayo se apoya en las siguientes normas de referencia:
 ## 📂 Contenido del repositorio
 
 - `Essay.md` → Documento principal.  
-- `assets/` → Diagrama conceptual: *Validación de Identidad y Rol del Operador*.  
+- `assets/validacion.png` → Diagrama conceptual: *Validación de Identidad y Rol del Operador*.  
 - `README.md` → Presentación y esquema del proyecto.  
 
 

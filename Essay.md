@@ -49,6 +49,10 @@
 
 - Proyección hacia un futuro TFI o tesina.
 
+## Conclusiones
+*(Se desarrollará al finalizar el análisis de arquitectura y validación normativa)*
+
+
 # Introduccion 
 
 
