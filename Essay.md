@@ -253,3 +253,5 @@ El operador, siguiendo el manual, actúa como **“Firewall humano”**, validan
 
 ---
 ![Flujo de generacion de la señal](assets/generacion-senial.png)
+
+
