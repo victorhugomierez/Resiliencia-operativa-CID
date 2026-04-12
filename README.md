@@ -1,7 +1,7 @@
 # 🛡️ Ensayo Técnico: Sistemas de Monitoreo y Confiabilidad del Dato
 
 
-![Nivel](https://img.shields.io/badge/Enfoque-Senior-blue?style=for-the-badge)
+
 ![Docs](https://img.shields.io/badge/Formato-Markdown-lightgrey?style=for-the-badge)
 
 ---
