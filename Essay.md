@@ -9,8 +9,6 @@
 
 - Propósito: analizar la robustez del flujo de señal bajo Normas IRAM.
 
-- Alcance: ensayo técnico, no TFI formal, pero con rigor académico.
-
 2. Generación de la señal
 
 - Cómo se origina la información en el panel.
