@@ -79,7 +79,6 @@ Este contexto justifica el enfoque de **“Ciber-criminal vs. Operador”**, don
 **Objetivo:** Determinar cómo la arquitectura tecnológica y los protocolos operativos convergen para blindar el proceso de toma de decisiones del operador, mitigando vulnerabilidades que van desde la interceptación física hasta la ingeniería social avanzada.
 
 
-En el ecosistema actual de la seguridad electrónica, el rol del operador de monitoreo ha trascendido la mera observación pasiva para convertirse en el eje crítico de un sistema complejo de gestión de datos. El presente ensayo se propone analizar la robustez de este proceso, tomando como vector principal el cumplimiento de las normas IRAM 4174-1 y 2, las cuales establecen los estándares de disponibilidad e integridad necesarios para una respuesta eficiente ante incidentes. Sin embargo, en un entorno donde la convergencia digital es absoluta, la integridad de la señal —entendida como la garantía de que el dato generado en el objetivo llega al operador sin alteraciones ni latencias críticas— se vuelve el desafío técnico primordial. Al cruzar los fundamentos del Análisis de Sistemas con los protocolos de seguridad lógica, buscaremos identificar cómo la arquitectura del sistema influye directamente en la toma de decisiones del operador, transformando la tecnología de una simple herramienta en un garante de la seguridad pública y privada.
 
 # Contexto: sistemas de monitoreo en operación real.
 
