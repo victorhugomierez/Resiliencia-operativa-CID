@@ -10,10 +10,28 @@
 
 Este repositorio contiene un ensayo técnico avanzado sobre **confiabilidad del dato en sistemas de monitoreo**, integrando:
 - **Arquitectura técnica** (sensores, paneles, software, redundancia).
-- **Cumplimiento normativo** (Normas IRAM 4174-1 y 4174-2, protocolos internos).
+- **Cumplimiento normativo** (Normas IRAM y protocolos internos).
 - **Acción humana del operador**, como validador final en tiempo real.
 
 El enfoque combina **rigor académico** con **experiencia operativa real**, documentando casos prácticos y diagramas conceptuales.
+
+---
+
+## 📑 Normas IRAM citadas
+
+Este ensayo se apoya en las siguientes normas de referencia:
+
+- **IRAM 4174-1**  
+- **IRAM 4174-2**  
+- **IRAM 4174-3**  
+- **IRAM 4175**  
+- **IRAM 4176**  
+- **IRAM 4177**  
+- **IRAM 4179**  
+- **IRAM 62676-1-1**  
+- **IRAM 3639**
+
+> Estas normas constituyen el marco regulatorio y técnico que asegura la disponibilidad, integridad y confiabilidad de los sistemas de monitoreo.
 
 ---
 
