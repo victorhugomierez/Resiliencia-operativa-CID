@@ -133,7 +133,7 @@ La **robustez del flujo de señal** se alcanza cuando cada etapa cumple simultá
 
 ---
 
-## Figura 4. Arquitectura técnica del sistema
+## Arquitectura técnica del sistema
 
 La arquitectura técnica del sistema de monitoreo se compone de **elementos físicos y lógicos** que interactúan para garantizar la robustez del flujo de señal y la confiabilidad del dato.  
 Cada componente cumple una función específica dentro del marco normativo IRAM, asegurando trazabilidad, redundancia y validación operativa.
