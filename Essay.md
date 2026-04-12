@@ -1,6 +1,7 @@
 # Esquema del ensayo
 
-1.Introducción
+### Indice
+1. Introducción
 
 - Contexto: sistemas de monitoreo en operación real.
 
@@ -34,7 +35,7 @@
 
 - Impacto de errores en la eficacia del servicio.
 
-4. Normas IRAM como marco
+5. Normas IRAM como marco
 
 - Principios de confiabilidad y calidad de datos.
 
