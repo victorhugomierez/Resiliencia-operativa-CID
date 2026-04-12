@@ -52,9 +52,34 @@
 # Introduccion 
 
 
-En el ecosistema actual de la seguridad electrónica, el rol del operador de monitoreo ha trascendido la mera observación pasiva para convertirse en el eje crítico de un sistema complejo de gestión de datos. El presente ensayo se propone analizar la robustez de este proceso, tomando como vector principal el cumplimiento de las normas IRAM 4174-1 y 2, las cuales establecen los estándares de disponibilidad e integridad necesarios para una respuesta eficiente ante incidentes. Sin embargo, en un entorno donde la convergencia digital es absoluta, la integridad de la señal —entendida como la garantía de que el dato generado en el objetivo llega al operador sin alteraciones ni latencias críticas— se vuelve el desafío técnico primordial. Al cruzar los fundamentos del Análisis de Sistemas con los protocolos de seguridad lógica, buscaremos identificar cómo la arquitectura del sistema influye directamente en la toma de decisiones del operador, transformando la tecnología de una simple herramienta en un garante de la seguridad pública y privada.
+La presente investigación no se limita a una descripción procedimental, sino que propone un análisis sistémico sobre la **integridad del flujo de datos** y la **validación de identidad** en centros de monitoreo. Bajo el cumplimiento de las normas **IRAM 4174 y 4179**, se examinará la robustez del sistema frente a vectores de ataque modernos que comprometen la tríada de seguridad (CID).
 
-Este ensayo sostiene que la confiabilidad del dato en sistemas de monitoreo depende tanto de la arquitectura técnica como del cumplimiento normativo, y que el operador es el punto crítico donde esa confiabilidad se valida en tiempo real
+### 1. La Triada de la Seguridad
+El análisis se enmarca en los tres pilares universales de la seguridad de la información:  
+- **Confidencialidad** → protección frente a accesos no autorizados.  
+- **Integridad** → garantía de que la señal no sea alterada en tránsito.  
+- **Disponibilidad** → aseguramiento de que el sistema esté operativo en todo momento.  
+
+Las Normas IRAM 4174 buscan precisamente garantizar la **disponibilidad** y la **integridad**, elevando el nivel académico del enfoque.
+
+### 2. El Factor Crítico: Punto de Falla Único
+El propósito es identificar si el eslabón más débil reside en el **canal de comunicación** o en el **proceso de validación humana**.  
+El operador se define como el **nodo de decisión final** dentro de un sistema distribuido, responsable de confirmar la confiabilidad del dato.
+
+### 3. El Contexto de la Amenaza Actual
+Los vectores de ataque contemporáneos superan la simple interrupción física (ej. cortar un cable). Hoy incluyen:  
+- **Suplantación de identidad** mediante deepfakes.  
+- **Interceptación de paquetes** en redes IP.  
+- **Denegación de servicio** dirigida a centros de monitoreo.  
+
+Este contexto justifica el enfoque de **“Ciber-criminal vs. Operador”**, donde la validación humana se convierte en la última barrera de defensa.
+
+---
+
+**Objetivo:** Determinar cómo la arquitectura tecnológica y los protocolos operativos convergen para blindar el proceso de toma de decisiones del operador, mitigando vulnerabilidades que van desde la interceptación física hasta la ingeniería social avanzada.
+
+
+En el ecosistema actual de la seguridad electrónica, el rol del operador de monitoreo ha trascendido la mera observación pasiva para convertirse en el eje crítico de un sistema complejo de gestión de datos. El presente ensayo se propone analizar la robustez de este proceso, tomando como vector principal el cumplimiento de las normas IRAM 4174-1 y 2, las cuales establecen los estándares de disponibilidad e integridad necesarios para una respuesta eficiente ante incidentes. Sin embargo, en un entorno donde la convergencia digital es absoluta, la integridad de la señal —entendida como la garantía de que el dato generado en el objetivo llega al operador sin alteraciones ni latencias críticas— se vuelve el desafío técnico primordial. Al cruzar los fundamentos del Análisis de Sistemas con los protocolos de seguridad lógica, buscaremos identificar cómo la arquitectura del sistema influye directamente en la toma de decisiones del operador, transformando la tecnología de una simple herramienta en un garante de la seguridad pública y privada.
 
 # Contexto: sistemas de monitoreo en operación real.
 
