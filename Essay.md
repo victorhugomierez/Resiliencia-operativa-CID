@@ -177,7 +177,7 @@ Cada componente cumple una función específica dentro del marco normativo IRAM,
 - **Validación normativa** → cumplimiento de IRAM 3639 para compatibilidad eléctrica y seguridad.  
 - **Operador humano** → último eslabón de validación, responsable de confirmar la integridad del dato.
 
-### 🔄 Interacción sistémica
+###  Interacción sistémica
 El flujo de señal se origina en el sensor, atraviesa los medios físicos y lógicos, y llega al centro de monitoreo donde se valida normativamente.  
 La **robustez** se logra cuando cada capa cumple su función bajo los estándares IRAM, permitiendo continuidad operativa incluso ante contingencias.
 
@@ -252,4 +252,4 @@ Este caso de estudio demuestra cómo la **generación de la señal** se conecta 
 El operador, siguiendo el manual, actúa como **“Firewall humano”**, validando que la tecnología no haya sido burlada.
 
 ---
-
+![Flujo de generacion de la señal](assets/generacion-senial.png)
