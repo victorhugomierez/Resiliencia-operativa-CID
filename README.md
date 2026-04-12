@@ -47,7 +47,7 @@ Este ensayo se apoya en las siguientes normas de referencia:
    Normas IRAM y protocolos internos.
 
 4. **Validación de identidad y rol del operador**  
-   Caso práctico SESYTEL: protocolo trifactorial y tensiones operativas.
+   Caso práctico XXXXX: protocolo trifactorial y tensiones operativas.
 
 5. **Conclusiones**  
    Síntesis y proyección hacia TFI/tesina.
