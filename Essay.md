@@ -102,14 +102,15 @@ Este análisis busca demostrar que la confiabilidad del dato no depende únicame
 ![Generacion de la señal](assets/confiabilidad.png)
 
 Qué muestra este esquema
-Generación de la señal → sensores y paneles como origen.
 
-Transmisión → antenas, canales de comunicación.
+- Generación de la señal → sensores y paneles como origen.
 
-Resistencia / Integridad / Redundancia → capacidad de soportar fallas y mantener datos intactos.
+- Transmisión → antenas, canales de comunicación.
 
-Contingencias → cortes de energía, fallas de ISP, interferencias.
+- Resistencia / Integridad / Redundancia → capacidad de soportar fallas y mantener datos intactos.
 
-Validación normativa → cumplimiento de Normas IRAM como garantía de calidad.
+- Contingencias → cortes de energía, fallas de ISP, interferencias.
 
-Resultado final → Robustez del flujo de señal.
+- Validación normativa → cumplimiento de Normas IRAM como garantía de calidad.
+
+- Resultado final → Robustez del flujo de señal.
