@@ -1,6 +1,6 @@
 # 🛡️ Ensayo Técnico: Sistemas de Monitoreo y Confiabilidad del Dato
 
-![Status](https://img.shields.io/badge/Estado-Privado-red?style=for-the-badge)
+
 ![Nivel](https://img.shields.io/badge/Enfoque-Senior-blue?style=for-the-badge)
 ![Docs](https://img.shields.io/badge/Formato-Markdown-lightgrey?style=for-the-badge)
 
