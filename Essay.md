@@ -255,3 +255,18 @@ El operador, siguiendo el manual, actúa como **“Firewall humano”**, validan
 ![Flujo de generacion de la señal](assets/generacion-senial.png)
 
 
+# ✅ Checklist de cierre de jornada
+
+## Estado actual
+- [x] Introducción reforzada con enfoque sistémico (CID, punto de falla único, contexto de amenaza).
+- [x] Capítulo 2 – Generación de la señal (normas IRAM + resiliencia operativa genérica).
+- [x] Repo limpio de referencias sensibles (sin nombres de empresas ni personas).
+- [ ] Figura 4 – Arquitectura técnica del sistema (pendiente de insertar).
+- [ ] Figura 5 – Integración Normas IRAM ↔ Protocolos operativos (pendiente de generar).
+
+## Próximos pasos
+1. Insertar **Figura 4** con componentes físicos y lógicos.  
+2. Generar diagrama visual genérico para **Figura 5**.  
+3. Numerar capítulos según índice para mayor claridad.  
+4. Preparar sección de **Conclusiones preliminares** (aunque sea un encabezado vacío).  
+
