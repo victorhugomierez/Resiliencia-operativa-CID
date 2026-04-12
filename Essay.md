@@ -114,3 +114,48 @@ Qué muestra este esquema
 - Validación normativa → cumplimiento de Normas IRAM como garantía de calidad.
 
 - Resultado final → Robustez del flujo de señal.
+
+![aplicacion de normas IRAM](assets/aplica-iram.png)
+
+
+**Figura 3. Normas IRAM aplicadas al flujo de robustez de señal**
+
+El presente esquema visualiza la correspondencia entre las etapas del flujo de señal y las Normas IRAM que regulan su robustez técnica y operativa.  
+Cada norma actúa como un eslabón dentro de la cadena de confiabilidad:
+
+- **IRAM 4174-1 / 4174-2 / 4174-3** → establecen los requisitos de diseño, instalación y mantenimiento de sistemas de alarma, garantizando la correcta generación de la señal.  
+- **IRAM 4175 / 4176 / 4177** → definen los protocolos de comunicación, redundancia de canales y continuidad del servicio, asegurando la integridad durante la transmisión.  
+- **IRAM 4179** → regula la respuesta ante contingencias críticas (fallas eléctricas, interferencias, cortes de enlace), preservando la disponibilidad del sistema.  
+- **IRAM 62676-1-1 / 3639** → norman la interoperabilidad de sistemas de videoverificación y los requisitos eléctricos y de compatibilidad, consolidando la validación normativa final.
+
+La **robustez del flujo de señal** se alcanza cuando cada etapa cumple simultáneamente con los estándares técnicos y regulatorios definidos por estas normas, permitiendo que la información llegue íntegra y verificable al centro de monitoreo incluso bajo condiciones adversas.
+
+
+---
+
+## Figura 4. Arquitectura técnica del sistema
+
+La arquitectura técnica del sistema de monitoreo se compone de **elementos físicos y lógicos** que interactúan para garantizar la robustez del flujo de señal y la confiabilidad del dato.  
+Cada componente cumple una función específica dentro del marco normativo IRAM, asegurando trazabilidad, redundancia y validación operativa.
+
+###  Componentes físicos
+- **Sensores y paneles** → puntos de origen de la señal, regulados por IRAM 4174‑1/2/3.  
+- **Medios de transmisión** → cableado, radioenlace, IP, GSM; sujetos a IRAM 4175‑4177.  
+- **Fuentes de energía y respaldo** → UPS, baterías, generadores; contemplados en IRAM 4179.  
+- **Equipos de videoverificación** → cámaras y grabadores conforme a IRAM 62676‑1‑1.  
+
+###  Componentes lógicos
+- **Software de monitoreo** → gestiona eventos, alarmas y redundancia de canales.  
+- **Protocolos de comunicación** → TCP/IP, MQTT, redundancia dual; alineados con IRAM 4176.  
+- **Validación normativa** → cumplimiento de IRAM 3639 para compatibilidad eléctrica y seguridad.  
+- **Operador humano** → último eslabón de validación, responsable de confirmar la integridad del dato.
+
+### 🔄 Interacción sistémica
+El flujo de señal se origina en el sensor, atraviesa los medios físicos y lógicos, y llega al centro de monitoreo donde se valida normativamente.  
+La **robustez** se logra cuando cada capa cumple su función bajo los estándares IRAM, permitiendo continuidad operativa incluso ante contingencias.
+
+---
+
+**Nota:** Esta figura sintetiza la convergencia entre infraestructura física, lógica y normativa, mostrando cómo la arquitectura técnica sostiene la confiabilidad del sistema de monitoreo.
+
+
