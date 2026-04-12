@@ -60,12 +60,6 @@ Este ensayo se apoya en las siguientes normas de referencia:
 - `assets/validacion.png` → Diagrama conceptual: *Validación de Identidad y Rol del Operador*.  
 - `README.md` → Presentación y esquema del proyecto.  
 
----
-
-## ⚠️ Nota de privacidad
-
-Este repositorio se mantiene **privado** mientras se filtra material sensible (normas IRAM, protocolos internos).  
-La versión pública se liberará una vez depurado el contenido.
 
 ---
 
