@@ -71,7 +71,7 @@ La versión pública se liberará una vez depurado el contenido.
 
 ## ✍️ Autor
 
-**Victorhugo**  
+**Victorhugomierez**  
 🔐 Security Operations Specialist (12 años experiencia)  
 💻 Offensive Cybersecurity & Systems Analysis  
 📚 Documentación técnica en Markdown | Portfolio internacional
