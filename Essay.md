@@ -84,3 +84,32 @@ En definitiva, la validación de identidad no es solo un proceso administrativo,
 
 
 
+# Propósito: Analizar la robustez del flujo de señal bajo Normas IRAM
+El objetivo de este capítulo es evaluar la robustez del flujo de señal en sistemas de monitoreo, tomando como referencia las Normas IRAM 4174-1, 4174-2, 4174-3, 4175, 4176, 4177, 4179, 62676-1-1 y 3639. Estas normas establecen criterios de disponibilidad, integridad y confiabilidad que permiten garantizar que la señal generada en el punto de origen (sensor, panel o dispositivo) llegue al centro de monitoreo sin alteraciones ni pérdidas críticas.
+
+La robustez del flujo de señal se entiende como la capacidad del sistema para:
+
+Resistir contingencias (cortes de energía, fallas de ISP, interferencias).
+
+Mantener integridad en la transmisión (evitar corrupción de datos o falsos positivos).
+
+Asegurar redundancia mediante canales alternativos y protocolos de respaldo.
+
+Cumplir normativamente con los estándares IRAM, que definen parámetros mínimos de calidad y seguridad.
+
+Este análisis busca demostrar que la confiabilidad del dato no depende únicamente de la tecnología instalada, sino de la convergencia entre arquitectura técnica, cumplimiento normativo y operación humana. El flujo de señal es el hilo conductor que une todos los componentes del sistema, y su robustez es el factor decisivo para que el monitoreo sea eficaz y confiable.
+
+![Generacion de la señal](assets/confiabilidad.png)
+
+Qué muestra este esquema
+Generación de la señal → sensores y paneles como origen.
+
+Transmisión → antenas, canales de comunicación.
+
+Resistencia / Integridad / Redundancia → capacidad de soportar fallas y mantener datos intactos.
+
+Contingencias → cortes de energía, fallas de ISP, interferencias.
+
+Validación normativa → cumplimiento de Normas IRAM como garantía de calidad.
+
+Resultado final → Robustez del flujo de señal.
