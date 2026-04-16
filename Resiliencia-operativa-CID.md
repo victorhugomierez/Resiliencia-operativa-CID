@@ -185,7 +185,6 @@ La **robustez** se logra cuando cada capa cumple su función bajo los estándare
 
 **Nota:** Esta figura sintetiza la convergencia entre infraestructura física, lógica y normativa, mostrando cómo la arquitectura técnica sostiene la confiabilidad del sistema de monitoreo.
 
-
 ---
 
 ## 2. Generación de la señal
