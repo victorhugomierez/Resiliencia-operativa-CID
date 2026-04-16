@@ -195,16 +195,7 @@ La generación de la señal constituye el **punto de partida** del flujo de moni
 ###  Elementos involucrados
 - **Sensores**: detectores de movimiento, contactos magnéticos, cámaras con analítica.  
 - **Paneles de control**: centralizan la información de múltiples sensores.  
-- **Interfaces de comunicación**: módulos IP, GSM o radio que convierten la señal en paquetes transmisibles.  
-
-###  Normas IRAM aplicables
-- **IRAM 4174-1 / 4174-2 / 4174-3** → regulan el diseño, instalación y mantenimiento de sistemas de alarma.  
-- Estas normas garantizan que la señal inicial sea **íntegra** y que el sistema esté **disponible** en condiciones normales y de contingencia.  
-
-###  Relación con la tríada CID
-- **Confidencialidad**: la señal debe generarse sin exposición indebida de datos.  
-- **Integridad**: el evento detectado no puede ser alterado antes de su transmisión.  
-- **Disponibilidad**: el sensor y el panel deben estar operativos incluso ante cortes de energía (UPS, baterías).  
+- **Interfaces de comunicación**: módulos IP, GSM o radio que convierten la señal en paquetes transmisibles.    
 
 ### Objetivo del análisis
 Evaluar si la **generación de la señal** cumple con los estándares normativos y si está preparada para resistir fallas técnicas o intentos de manipulación.  
