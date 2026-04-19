@@ -295,3 +295,37 @@ Impacto sistémico: errores repetidos afectan la credibilidad del centro de moni
 ![Desiciones del operador](assets/ds-operador.png)
 
 
+# 5. Normas IRAM como marco
+* Principios de confiabilidad y calidad de datos
+Las normas IRAM establecen que la información utilizada en sistemas de seguridad debe ser confiable, verificable y trazable.
+* 
+Confiabilidad: los datos deben provenir de fuentes seguras y mantenerse íntegros durante todo el proceso.
+
+* Calidad: la información debe ser clara, completa y libre de ambigüedades.
+
+* Trazabilidad: cada acción debe quedar registrada para permitir auditorías y garantizar transparencia.
+
+##  Aplicación al flujo completo
+
+- Las normas se aplican en todas las etapas del ciclo operativo:
+
+1. Generación de datos: alarmas, sensores, receptores y sistemas de comunicación.
+
+IRAM 4174-1 y 4174-2 → aseguran consistencia y trazabilidad desde el origen.
+
+2. Procesamiento de datos: software de monitoreo, Bykom, IVMS, UPS.
+
+IRAM 4175 y 4176 → garantizan calidad y seguridad de los sistemas tecnológicos.
+
+3. Decisión del operador: validación en tiempo real, interpretación de señales y toma de decisiones.
+
+IRAM 4177 y 4179 → establecen auditorías y controles para minimizar errores humanos y tecnológicos.
+
+## Ejemplos de buenas prácticas
+- Registro automático de eventos: cada señal validada debe quedar documentada en el sistema, cumpliendo con la trazabilidad exigida por IRAM.
+
+- Protocolos de redundancia: uso de servidores de respaldo y UPS para asegurar disponibilidad continua.
+
+- Capacitación periódica: simulacros y entrenamientos que refuercen la capacidad del operador de aplicar normas en situaciones críticas.
+
+- Auditorías internas: revisión sistemática de procedimientos para detectar fallas y corregirlas antes de que afecten la eficacia del servicio.
