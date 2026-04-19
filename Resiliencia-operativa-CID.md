@@ -292,6 +292,6 @@ Impacto sistémico: errores repetidos afectan la credibilidad del centro de moni
 * La solución pasa por la capacitación continua, protocolos claros de escalamiento y retroalimentación constante, asegurando que cada error se convierta en aprendizaje y mejora del sistema.
 
 
-![Desiciones del operador](assets/desicion-operador.png)
+![Desiciones del operador](assets/ds-operador.png)
 
 
