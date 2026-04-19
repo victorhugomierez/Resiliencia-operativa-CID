@@ -41,6 +41,8 @@
 
 - Ejemplos de buenas prácticas.
 
+---
+
 ### Conclusiones
 
 - Síntesis de hallazgos.
@@ -259,4 +261,37 @@ El operador, siguiendo el manual, actúa como **“Firewall humano”**, validan
 2. Generar diagrama visual genérico para **Figura 5**.  
 3. Numerar capítulos según índice para mayor claridad.  
 4. Preparar sección de **Conclusiones preliminares** (aunque sea un encabezado vacío).  
+
+# 4. Decisión del operador
+
+✅ Validación de la información en tiempo real
+La resiliencia operativa depende de que el operador pueda distinguir rápidamente entre una falla real y un falso positivo.
+
+- Ejemplos de fallas frecuentes: cortes de luz, caída de ISP, desconexión de receptoras, fallas en Bykom o UPS.
+
+- Soluciones inmediatas: verificación de indicadores físicos (luces testigo, disyuntores, UPS), pruebas de conectividad y reinicio controlado de módulos o equipos.
+
+- Normativa aplicada: las normas IRAM 4174-1 y 4174-2 exigen trazabilidad y consistencia en la información, lo que implica que cada validación debe quedar registrada para garantizar transparencia y control.
+
+## 👥 Factores humanos y tecnológicos
+* Humanos: la capacidad de atención, la formación y la resistencia al estrés son determinantes. La fatiga o la sobrecarga pueden llevar a errores críticos. Por eso se implementan protocolos de guardia pasiva, simulacros y cronogramas de turnos para mitigar riesgos.
+
+* Tecnológicos: sistemas como Bykom, IVMS, receptores telefónicos y UPS aportan datos confiables, pero requieren supervisión constante. Las normas IRAM 4175 y 4176 establecen criterios de calidad y seguridad para estos sistemas, asegurando que la tecnología sea un apoyo y no un punto débil.
+
+* Interacción: la resiliencia surge de la sinergia entre ambos factores: tecnología que reduce la carga cognitiva y operadores capaces de contextualizar la información.
+
+## ⚠️ Impacto de errores en la eficacia del servicio
+Los errores en la decisión del operador tienen consecuencias directas:
+
+Falsos negativos: ignorar una señal legítima puede comprometer la seguridad de personas y bienes.
+
+Falsos positivos: activar protocolos de emergencia sin necesidad genera costos, pérdida de confianza y desgaste operativo.
+
+Impacto sistémico: errores repetidos afectan la credibilidad del centro de monitoreo y pueden derivar en sanciones regulatorias. Las normas IRAM 4177 y 4179 establecen parámetros para minimizar estos riesgos mediante auditorías y controles de calidad.
+
+* La solución pasa por la capacitación continua, protocolos claros de escalamiento y retroalimentación constante, asegurando que cada error se convierta en aprendizaje y mejora del sistema.
+
+
+![Desiciones del operador](assets/desicion-operador.png)
+
 
