@@ -329,3 +329,5 @@ IRAM 4177 y 4179 → establecen auditorías y controles para minimizar errores h
 - Capacitación periódica: simulacros y entrenamientos que refuercen la capacidad del operador de aplicar normas en situaciones críticas.
 
 - Auditorías internas: revisión sistemática de procedimientos para detectar fallas y corregirlas antes de que afecten la eficacia del servicio.
+![Normas IRAM como marco](assets/iram-como-marco.png)
+
