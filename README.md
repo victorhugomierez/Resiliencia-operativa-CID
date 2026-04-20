@@ -67,6 +67,7 @@ Este ensayo se apoya en las siguientes normas de referencia:
 - `Essay.md` → Documento principal.  
 - `assets/` → Diagrama conceptual: *Validación de Identidad y Rol del Operador*.  
 - `README.md` → Presentación y esquema del proyecto.  
+- `Conclusion` → (Se desarrollará al finalizar el análisis de arquitectura y validación normativa, incorporando la síntesis de hallazgos, el valor del enfoque sistémico y la proyección hacia un futuro TFI/Tesina, tal como se expone en el ensayo principal.)
 
 
 ---
