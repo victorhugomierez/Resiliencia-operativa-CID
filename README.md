@@ -76,7 +76,7 @@ Este ensayo se apoya en las siguientes normas de referencia:
 
 **Victorhugomierez**  
 🔐 Security Operations Specialist (12 años experiencia)  
-💻 Offensive Cybersecurity & Systems Analysis  
+💻 Offensive Cybersecurity & Systems Analysis - Advanced Transition 
 📚 Documentación técnica en Markdown | Portfolio internacional
 
 **Tags (ES):** seguridad, CID, normas-IRAM, sistemas-de-monitoreo, resiliencia-operativa, ciberseguridad, análisis-de-sistemas, ensayo-tecnico  
