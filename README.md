@@ -67,6 +67,7 @@ Este ensayo se apoya en las siguientes normas de referencia:
 - `Essay.md` → Documento principal.  
 - `assets/` → Diagrama conceptual: *Validación de Identidad y Rol del Operador*.  
 - `README.md` → Presentación y esquema del proyecto.  
+- `Conclusion` → (Se desarrollará al finalizar el análisis de arquitectura y validación normativa, incorporando la síntesis de hallazgos, el valor del enfoque sistémico y la proyección hacia un futuro TFI/Tesina, tal como se expone en el ensayo principal.)
 
 
 ---
@@ -75,9 +76,5 @@ Este ensayo se apoya en las siguientes normas de referencia:
 
 **Victorhugomierez**  
 🔐 Security Operations Specialist (12 años experiencia)  
-💻 Offensive Cybersecurity & Systems Analysis  
+💻 Offensive Cybersecurity & Systems Analysis - Advanced Transition 
 📚 Documentación técnica en Markdown | Portfolio internacional
-
-**Tags (ES):** seguridad, CID, normas-IRAM, sistemas-de-monitoreo, resiliencia-operativa, ciberseguridad, análisis-de-sistemas, ensayo-tecnico  
-**Tags (EN):** security, CID, IRAM-standards, system-monitoring, operational-resilience, cybersecurity, systems-analysis, technical-essay
-
