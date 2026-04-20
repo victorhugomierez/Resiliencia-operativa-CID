@@ -18,7 +18,7 @@
 
     - Riesgos en la etapa de captura.
 
-### 3. Procesamiento de la señal
+    - Procesamiento de la señal
 
     - Transmisión y transformación de datos.
 
@@ -26,7 +26,7 @@
 
     - Rol de la ciberseguridad como garante de integridad (no como fin).
 
-### 4. Decisión del operador
+### 3. Decisión del operador
 
     - Validación de la información en tiempo real.
 
@@ -34,7 +34,7 @@
 
     - Impacto de errores en la eficacia del servicio.
 
-### 5. Normas IRAM como marco
+### 4. Normas IRAM como marco
 
     - Principios de confiabilidad y calidad de datos.
 
@@ -107,7 +107,6 @@ En definitiva, la validación de identidad no es solo un proceso administrativo,
 
 ![Diagrama Validación de Identidad y Rol del Operador](assets/validacion.png)
 
-
 # Propósito: Analizar la robustez del flujo de señal bajo Normas IRAM
 El objetivo de este capítulo es evaluar la robustez del flujo de señal en sistemas de monitoreo, tomando como referencia las Normas IRAM 4174-1, 4174-2, 4174-3, 4175, 4176, 4177, 4179, 62676-1-1 y 3639. Estas normas establecen criterios de disponibilidad, integridad y confiabilidad que permiten garantizar que la señal generada en el punto de origen (sensor, panel o dispositivo) llegue al centro de monitoreo sin alteraciones ni pérdidas críticas.
 
@@ -161,6 +160,7 @@ La arquitectura técnica del sistema de monitoreo se compone de **elementos fís
 Cada componente cumple una función específica dentro del marco normativo IRAM, asegurando trazabilidad, redundancia y validación operativa.
 
 ###  Componentes físicos
+
 - **Sensores y paneles** → puntos de origen de la señal, regulados por IRAM 4174‑1/2/3.  
 - **Medios de transmisión** → cableado, radioenlace, IP, GSM; sujetos a IRAM 4175‑4177.  
 - **Fuentes de energía y respaldo** → UPS, baterías, generadores; contemplados en IRAM 4179.  
@@ -240,7 +240,7 @@ El operador, siguiendo el manual, actúa como **“Firewall humano”**, validan
 ![Flujo de generacion de la señal](assets/generacion-senial.png)
 
 
-# 4. Decisión del operador
+# 3. Decisión del operador
 
  Validación de la información en tiempo real
 La resiliencia operativa depende de que el operador pueda distinguir rápidamente entre una falla real y un falso positivo.
@@ -273,7 +273,7 @@ Impacto sistémico: errores repetidos afectan la credibilidad del centro de moni
 ![Desiciones del operador](assets/ds-operador.png)
 
 
-# 5. Normas IRAM como marco
+# 4. Normas IRAM como marco
 * Principios de confiabilidad y calidad de datos
 Las normas IRAM establecen que la información utilizada en sistemas de seguridad debe ser confiable, verificable y trazable.
 * 
