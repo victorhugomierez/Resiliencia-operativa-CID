@@ -56,7 +56,7 @@
 
 El presente ensayo analiza el flujo sistémico de señales de monitoreo bajo el marco normativo IRAM (4174-1/2, 4173-3, 4179), enfocándose en la integridad de la señal y la validación de identidad como pilares de la operación real. El propósito es examinar la robustez de este flujo frente a vectores de ataque contemporáneos, identificando puntos críticos donde la convergencia entre la seguridad física y la seguridad lógica determina la eficacia de la toma de decisiones del operador. Al desglosar este proceso, se busca proponer medidas de mitigación que fortalezcan el rol del analista en el CRA ante incidentes de alta complejidad.
 
-### 1. La Triada de la Seguridad
+### La Triada de la Seguridad
 
 El análisis se enmarca en los tres pilares universales de la seguridad de la información:  
 - **Confidencialidad** → protección frente a accesos no autorizados.  
@@ -65,11 +65,11 @@ El análisis se enmarca en los tres pilares universales de la seguridad de la in
 
 Las Normas IRAM 4174 buscan precisamente garantizar la **disponibilidad** y la **integridad**, elevando el nivel académico del enfoque.
 
-### 2. El Factor Crítico: Punto de Falla Único
+### El Factor Crítico: Punto de Falla Único
 El propósito es identificar si el eslabón más débil reside en el **canal de comunicación** o en el **proceso de validación humana**.  
 El operador se define como el **nodo de decisión final** dentro de un sistema distribuido, responsable de confirmar la confiabilidad del dato.
 
-### 3. El Contexto de la Amenaza Actual
+### El Contexto de la Amenaza Actual
 Los vectores de ataque contemporáneos superan la simple interrupción física (ej. cortar un cable). Hoy incluyen:  
 - **Suplantación de identidad** mediante deepfakes.  
 - **Interceptación de paquetes** en redes IP.  
