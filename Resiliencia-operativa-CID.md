@@ -2,7 +2,7 @@
 
 ## Indice
 
-1. Introducción
+### 1. Introducción
 
     - Contexto: sistemas de monitoreo en operación real.
 
@@ -10,7 +10,7 @@
 
     - Propósito: analizar la robustez del flujo de señal bajo Normas IRAM.
 
-2. Generación de la señal
+### 2. Generación de la señal
 
     - Cómo se origina la información en el panel.
 
@@ -18,7 +18,7 @@
 
     - Riesgos en la etapa de captura.
 
-3. Procesamiento de la señal
+### 3. Procesamiento de la señal
 
     - Transmisión y transformación de datos.
 
@@ -26,7 +26,7 @@
 
     - Rol de la ciberseguridad como garante de integridad (no como fin).
 
-4. Decisión del operador
+### 4. Decisión del operador
 
     - Validación de la información en tiempo real.
 
@@ -34,7 +34,7 @@
 
     - Impacto de errores en la eficacia del servicio.
 
-5. Normas IRAM como marco
+### 5. Normas IRAM como marco
 
     - Principios de confiabilidad y calidad de datos.
 
