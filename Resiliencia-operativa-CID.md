@@ -331,3 +331,12 @@ IRAM 4177 y 4179 → establecen auditorías y controles para minimizar errores h
 - Auditorías internas: revisión sistemática de procedimientos para detectar fallas y corregirlas antes de que afecten la eficacia del servicio.
 ![Normas IRAM como marco](assets/iram-como-marco.png)
 
+---
+
+# Conclusiones
+
+La arquitectura analizada demuestra que la resiliencia operativa no es un atributo aislado, sino el resultado de un sistema integrado donde cada componente —humano, tecnológico y normativo— sostiene la continuidad del servicio. Los hallazgos confirman que la detección temprana de fallas y la aplicación de soluciones inmediatas, respaldadas por normas IRAM, permiten transformar vulnerabilidades en oportunidades de mejora.
+
+El valor del enfoque sistémico se evidencia en la capacidad de articular generación, procesamiento y decisión bajo un mismo marco de confiabilidad y calidad de datos. Esta visión evita que la seguridad dependa de un único punto de control y asegura que la operación se mantenga firme incluso frente a contingencias críticas.
+
+Finalmente, este ensayo proyecta un camino hacia un futuro Trabajo Final Integrador o Tesina, donde la resiliencia operativa se consolide como un modelo replicable en distintos ámbitos de seguridad y gestión tecnológica. La integración entre protocolos prácticos y normativa internacional abre la posibilidad de construir sistemas más robustos, auditables y adaptables, capaces de enfrentar los desafíos de un entorno cada vez más complejo.
