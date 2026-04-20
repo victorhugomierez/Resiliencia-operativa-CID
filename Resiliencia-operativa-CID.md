@@ -1,6 +1,7 @@
-# Esquema del ensayo
+# Resiliencia Operativa
 
-### Indice
+## Indice
+
 1. Introducción
 
 - Contexto: sistemas de monitoreo en operación real.
@@ -41,8 +42,6 @@
 
 - Ejemplos de buenas prácticas.
 
----
-
 ### Conclusiones
 
 - Síntesis de hallazgos.
@@ -51,16 +50,14 @@
 
 - Proyección hacia un futuro TFI o tesina.
 
-## Conclusiones
-*(Se desarrollará al finalizar el análisis de arquitectura y validación normativa)*
-
+--- 
 
 # Introduccion 
-
 
 El presente ensayo analiza el flujo sistémico de señales de monitoreo bajo el marco normativo IRAM (4174-1/2, 4173-3, 4179), enfocándose en la integridad de la señal y la validación de identidad como pilares de la operación real. El propósito es examinar la robustez de este flujo frente a vectores de ataque contemporáneos, identificando puntos críticos donde la convergencia entre la seguridad física y la seguridad lógica determina la eficacia de la toma de decisiones del operador. Al desglosar este proceso, se busca proponer medidas de mitigación que fortalezcan el rol del analista en el CRA ante incidentes de alta complejidad.
 
 ### 1. La Triada de la Seguridad
+
 El análisis se enmarca en los tres pilares universales de la seguridad de la información:  
 - **Confidencialidad** → protección frente a accesos no autorizados.  
 - **Integridad** → garantía de que la señal no sea alterada en tránsito.  
@@ -83,7 +80,6 @@ Este contexto justifica el enfoque de **“Ciber-criminal vs. Operador”**, don
 ---
 
 **Objetivo:** Determinar cómo la arquitectura tecnológica y los protocolos operativos convergen para blindar el proceso de toma de decisiones del operador, mitigando vulnerabilidades que van desde la interceptación física hasta la ingeniería social avanzada.
-
 
 
 # Contexto: sistemas de monitoreo en operación real.
@@ -112,7 +108,6 @@ En definitiva, la validación de identidad no es solo un proceso administrativo,
 ![Diagrama Validación de Identidad y Rol del Operador](assets/validacion.png)
 
 
-
 # Propósito: Analizar la robustez del flujo de señal bajo Normas IRAM
 El objetivo de este capítulo es evaluar la robustez del flujo de señal en sistemas de monitoreo, tomando como referencia las Normas IRAM 4174-1, 4174-2, 4174-3, 4175, 4176, 4177, 4179, 62676-1-1 y 3639. Estas normas establecen criterios de disponibilidad, integridad y confiabilidad que permiten garantizar que la señal generada en el punto de origen (sensor, panel o dispositivo) llegue al centro de monitoreo sin alteraciones ni pérdidas críticas.
 
@@ -130,7 +125,7 @@ Este análisis busca demostrar que la confiabilidad del dato no depende únicame
 
 ![Generacion de la señal](assets/confiabilidad.png)
 
-Qué muestra este esquema
+* Qué muestra este esquema
 
 - Generación de la señal → sensores y paneles como origen.
 
@@ -146,7 +141,6 @@ Qué muestra este esquema
 
 ![aplicacion de normas IRAM](assets/aplica-iram.png)
 
-
 **Normas IRAM aplicadas al flujo de robustez de señal**
 
 El presente esquema visualiza la correspondencia entre las etapas del flujo de señal y las Normas IRAM que regulan su robustez técnica y operativa.  
@@ -158,7 +152,6 @@ Cada norma actúa como un eslabón dentro de la cadena de confiabilidad:
 - **IRAM 62676-1-1 / 3639** → norman la interoperabilidad de sistemas de videoverificación y los requisitos eléctricos y de compatibilidad, consolidando la validación normativa final.
 
 La **robustez del flujo de señal** se alcanza cuando cada etapa cumple simultáneamente con los estándares técnicos y regulatorios definidos por estas normas, permitiendo que la información llegue íntegra y verificable al centro de monitoreo incluso bajo condiciones adversas.
-
 
 ---
 
@@ -249,7 +242,7 @@ El operador, siguiendo el manual, actúa como **“Firewall humano”**, validan
 
 # 4. Decisión del operador
 
-✅ Validación de la información en tiempo real
+ Validación de la información en tiempo real
 La resiliencia operativa depende de que el operador pueda distinguir rápidamente entre una falla real y un falso positivo.
 
 - Ejemplos de fallas frecuentes: cortes de luz, caída de ISP, desconexión de receptoras, fallas en Bykom o UPS.
@@ -258,7 +251,7 @@ La resiliencia operativa depende de que el operador pueda distinguir rápidament
 
 - Normativa aplicada: las normas IRAM 4174-1 y 4174-2 exigen trazabilidad y consistencia en la información, lo que implica que cada validación debe quedar registrada para garantizar transparencia y control.
 
-## 👥 Factores humanos y tecnológicos
+## Factores humanos y tecnológicos
 * Humanos: la capacidad de atención, la formación y la resistencia al estrés son determinantes. La fatiga o la sobrecarga pueden llevar a errores críticos. Por eso se implementan protocolos de guardia pasiva, simulacros y cronogramas de turnos para mitigar riesgos.
 
 * Tecnológicos: sistemas como Bykom, IVMS, receptores telefónicos y UPS aportan datos confiables, pero requieren supervisión constante. Las normas IRAM 4175 y 4176 establecen criterios de calidad y seguridad para estos sistemas, asegurando que la tecnología sea un apoyo y no un punto débil.
