@@ -4,51 +4,51 @@
 
 1. Introducción
 
-- Contexto: sistemas de monitoreo en operación real.
+    - Contexto: sistemas de monitoreo en operación real.
 
-    - Validación de Identidad y Rol del Operador
+        - Validación de Identidad y Rol del Operador
 
-- Propósito: analizar la robustez del flujo de señal bajo Normas IRAM.
+    - Propósito: analizar la robustez del flujo de señal bajo Normas IRAM.
 
 2. Generación de la señal
 
-- Cómo se origina la información en el panel.
+    - Cómo se origina la información en el panel.
 
-- Tipos de sensores y confiabilidad inicial.
+    - Tipos de sensores y confiabilidad inicial.
 
-- Riesgos en la etapa de captura.
+    - Riesgos en la etapa de captura.
 
 3. Procesamiento de la señal
 
-- Transmisión y transformación de datos.
+    - Transmisión y transformación de datos.
 
-- Puntos críticos: pérdida, alteración, latencia.
+    - Puntos críticos: pérdida, alteración, latencia.
 
-- Rol de la ciberseguridad como garante de integridad (no como fin).
+    - Rol de la ciberseguridad como garante de integridad (no como fin).
 
 4. Decisión del operador
 
-- Validación de la información en tiempo real.
+    - Validación de la información en tiempo real.
 
-- Factores humanos y tecnológicos.
+    - Factores humanos y tecnológicos.
 
-- Impacto de errores en la eficacia del servicio.
+    - Impacto de errores en la eficacia del servicio.
 
 5. Normas IRAM como marco
 
-- Principios de confiabilidad y calidad de datos.
+    - Principios de confiabilidad y calidad de datos.
 
-- Cómo se aplican al flujo completo (Generación → Procesamiento → Decisión).
+    - Cómo se aplican al flujo completo (Generación → Procesamiento → Decisión).
 
-- Ejemplos de buenas prácticas.
+    - Ejemplos de buenas prácticas.
 
 ### Conclusiones
 
-- Síntesis de hallazgos.
+    - Síntesis de hallazgos.
 
-- Valor del enfoque sistémico.
+    - Valor del enfoque sistémico.
 
-- Proyección hacia un futuro TFI o tesina.
+    - Proyección hacia un futuro TFI o tesina.
 
 --- 
 
